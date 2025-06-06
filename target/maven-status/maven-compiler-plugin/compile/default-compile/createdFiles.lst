@@ -1,1 +1,8 @@
+com\gestorftp\OperatorThread$operationType.class
+com\gestorftp\DescifradorAESSimple.class
+com\gestorftp\Monitor.class
 com\gestorftp\GestorFTP.class
+com\gestorftp\MainThread.class
+com\gestorftp\AESSimpleManager.class
+com\gestorftp\OperatorThread.class
+com\gestorftp\CifradorAESSimple.class
