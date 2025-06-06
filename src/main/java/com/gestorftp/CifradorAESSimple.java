@@ -6,6 +6,11 @@ import java.nio.file.Files;
 import java.security.Key;
 import java.util.Base64;
 
+/**
+ * Clase de utilidad que proporciona la funcionalidad para cifrar archivos
+ * utilizando el algoritmo AES (Advanced Encryption Standard)
+ * @author Ciso
+ */
 public class CifradorAESSimple {
 
     private static final int LONGITUD_BLOQUE = 32;

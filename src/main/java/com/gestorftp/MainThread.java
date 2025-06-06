@@ -2,6 +2,11 @@ package com.gestorftp;
 
 import java.nio.file.*;
 
+/**
+ * Clase principal que monitoriza un directorio local para detectar cambios y
+ * gestiona operaciones FTP en un servidor remoto.
+ * @author Ciso
+ */
 public class MainThread {
 
     private static final String LOCAL_DIRECTORY = "C:/FTPOriginalFolder";

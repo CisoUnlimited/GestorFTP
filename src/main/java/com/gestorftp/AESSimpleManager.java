@@ -5,6 +5,12 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.Key;
 
+/**
+ * Clase de utilidad que proporciona funcionalidades básicas para la gestión de
+ * claves AES y operaciones de cifrado y descifrado de cadenas de texto
+ * utilizando el algoritmo AES.
+ * @author Ciso
+ */
 public class AESSimpleManager {
 
     // La longitud puede ser de 16, 24 o 32 bytes

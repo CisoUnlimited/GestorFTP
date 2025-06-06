@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Hilo de operación que se encarga de realizar las operaciones FTP de forma
+ * asíncrona. Cada instancia de este hilo realiza una única operación sobre un
+ * fichero específico.
+ * @author Ciso
+ */
 public class OperatorThread extends Thread {
 
     private final GestorFTP gestorFTP;

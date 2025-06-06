@@ -9,6 +9,11 @@ import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPReply;
 import org.apache.commons.net.ftp.FTP;
 
+/**
+ * Clase que realiza las acciones de creación, modificación y borrado de ficheros
+ * en el servidor FTP.
+ * @author Ciso
+ */
 public class GestorFTP {
 
     private final FTPClient clienteFTP;

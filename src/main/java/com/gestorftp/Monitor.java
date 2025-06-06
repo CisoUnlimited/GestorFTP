@@ -7,6 +7,11 @@ import java.util.Map;
 
 import static java.nio.file.StandardWatchEventKinds.*;
 
+/**
+ * Clase que proporciona la funcionalidad para monitorizar cambios en un
+ * directorio del sistema utilizando la API WatchService de Java.
+ * @author Ciso
+ */
 public class Monitor {
     private final WatchService watchService;
     private final Map<WatchKey, Path> keys;
