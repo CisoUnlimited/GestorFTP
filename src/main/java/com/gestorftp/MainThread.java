@@ -30,13 +30,13 @@ public class MainThread {
                 String relativePathString = relativePath.toString();
 
                 if (tipo == StandardWatchEventKinds.ENTRY_CREATE) {
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                     new OperatorThread(absolutePathString, OperatorThread.operationType.SUBIR).start();
                 } else if (tipo == StandardWatchEventKinds.ENTRY_DELETE) {
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                     new OperatorThread(relativePathString, OperatorThread.operationType.ELIMINAR).start();
                 } else if (tipo == StandardWatchEventKinds.ENTRY_MODIFY) {
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                     new OperatorThread(absolutePathString, OperatorThread.operationType.MODIFICAR).start();
                 }
             }
