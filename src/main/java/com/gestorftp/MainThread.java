@@ -2,10 +2,6 @@ package com.gestorftp;
 
 import java.nio.file.*;
 
-/**
- * En esta clase vamos a realizar la sincronización entre los directorios FTP
- * usando hilos
- */
 public class MainThread {
 
     private static final String LOCAL_DIRECTORY = "C:/FTPOriginalFolder";

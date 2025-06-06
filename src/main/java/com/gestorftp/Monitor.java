@@ -7,9 +7,6 @@ import java.util.Map;
 
 import static java.nio.file.StandardWatchEventKinds.*;
 
-/**
- * Clase que monitoriza cambios en un directory
- */
 public class Monitor {
     private final WatchService watchService;
     private final Map<WatchKey, Path> keys;
@@ -25,9 +22,6 @@ public class Monitor {
         System.out.println("se está analizando el directorio: " + directory);
     }
 
-    /**
-     * Espera a que ocurra un evento en el directory
-     */
     public WatchEvent<?> eventWatcher() throws InterruptedException {
         WatchKey key = watchService.take();
 
